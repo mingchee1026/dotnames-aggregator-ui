@@ -1,0 +1,184 @@
+
+
+.webflow__hero__card {
+  -webkit-transform: translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0)
+    rotateY(0) rotateZ(0) skew(0, 0);
+  -moz-transform: translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+    rotateZ(0) skew(0, 0);
+  -ms-transform: translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+    rotateZ(0) skew(0, 0);
+  transform: translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+    rotateZ(0) skew(0, 0);
+  opacity: 0;
+}
+
+.flipcard-wrapper {
+  position: relative;
+}
+
+.flipcard-front {
+  height: 600px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  color: #fff;
+  background-image: url('/images/card-bg.png');
+  background-position: 50%;
+  background-size: cover;
+  border-radius: 30px;
+  padding-top: 72px;
+  padding-left: 40px;
+  padding-right: 51px;
+  position: relative;
+  box-shadow: 7px 7px 40px 6px rgba(0, 0, 0, .09);
+}
+
+.flipcard-title {
+  margin-top: 0;
+  margin-bottom: 6px;
+  font-size: 56px;
+  line-height: 62px;
+}
+
+.flipcard-subtitle {
+  max-width: 215px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.flipcard-more {
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.flipcard-back {
+  height: 600px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  background-color: #fff;
+  border-radius: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 66px;
+  padding-left: 44px;
+  padding-right: 107px;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  transform: rotateX(0)rotateY(180deg)rotateZ(0);
+  box-shadow: 7px 7px 40px 6px rgba(0, 0, 0, .09);
+}
+
+.flipcard-back-title {
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #90ca5a, #d7d65a 50%, #dac355);
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-top: 0;
+  margin-bottom: 28px;
+  font-size: 44px;
+  line-height: 48px;
+}
+
+.flipcard-less {
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.flipcard-wrapper-2 {
+  width: 25rem;
+  height: 38rem;
+  max-height: 38rem;
+  max-width: 25rem;
+  min-height: 22.8rem;
+  min-width: 15rem;
+  object-fit: cover;
+  position: relative;
+  overflow: visible;
+}
+
+.flipcard-front-2 {
+  height: 600px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  color: #fff;
+  background-image: url('/images/Frame-3-6.png');
+  background-size: cover;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 184px 104px 172px 31px;
+  position: relative;
+  box-shadow: 7px 7px 40px 6px rgba(0, 0, 0, .09);
+}
+
+.flipcard-title-2 {
+  color: #6174e7;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Urbanist, sans-serif;
+  font-size: 3rem;
+  line-height: 2.5rem;
+  position: relative;
+}
+
+.flipcard-subtitle-2 {
+  max-width: 215px;
+  color: #9dacef;
+  object-fit: contain;
+  padding-left: 0;
+  font-family: Urbanist, sans-serif;
+  font-size: .7rem;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.flipcard-more-2 {
+  -webkit-text-fill-color: inherit;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0);
+  background-clip: border-box;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.flipcard-back-2 {
+  height: 600px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  background-color: #fff;
+  border-radius: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 66px;
+  padding-left: 44px;
+  padding-right: 107px;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  transform: rotateX(0)rotateY(180deg)rotateZ(0);
+  box-shadow: 7px 7px 40px 6px rgba(0, 0, 0, .09);
+}
+
+.flipcard-back-title-2 {
+  color: #6174e7;
+  -webkit-text-fill-color: inherit;
+  background-clip: border-box;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3rem;
+  line-height: 3rem;
+  position: absolute;
+}

@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "@dotnames/domain-checker": {
+      "version": "0.0.1",
+      "signature": "ccbc34a2d85e7aff0359dc25587bce37",
+      "file": true
+    }
+  }
+}
